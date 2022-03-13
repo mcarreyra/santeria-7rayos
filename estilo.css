@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 0, 128);
+    font-family: 'Lora', serif;
+}
+
+
+.titulos {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+div h3 {
+    color: rgb(222, 222, 222);
+}
+
+
+div p {
+    color: rgb(222, 222, 222);
+}
+
+.imagenes {
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.pago {
+    margin: 1rem;
+    border: none;
+}
+
+
+
+.retrato {
+    border-radius: 1rem;
+}
+
+.contacto {
+    text-align: center;
+    color: rgb(222, 222, 222);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* HEADER */
+
+.header {
+    padding: 2rem;
+    position: relative;
+}
+
+.header__contenedor {
+    /* max-width: 1200px; */
+    margin: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px; /* modificar cuando carge el logo */
+    width: 50px; /* modificar cuando carge el logo */
+}
+
+.header__logo img {
+    height: 100%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+a.nav {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+
+/* INDEX */
+
+#publicidad {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 2rem;
+}
+
+/* Productos con descuentos y destacados */
+
+.descuentos {
+    padding: auto;
+    margin-bottom: 2rem;
+}
+
+.descuentos__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 2rem;
+    
+    /* justify-content: space-between;
+    align-items: center; */
+    /* margin: 2rem; */
+}
+
+.destacados__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 2rem;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem; */
+}
+
+
+
+/* métodos de pago */
+
+.pago {
+    padding: 2rem;
+    color: rgb(222, 222, 222);
+}
+
+.pago__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.pago__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pago__item i {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.pago__item p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.pago__titulo {
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer p {
+    color: rgb(222, 222, 222);
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer {
+    padding: 2rem;
+}
+
+.footer__contenedor {
+    /* color de fondo o aplicar sombra */
+    max-height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.footer__info p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.footer__redes a {
+    color: rgb(222, 222, 222);
+    font-size: 25px;
+    padding: 1rem;
+}
+
+
+
+/* HISTORIA */
+
+.historia__texto {
+    text-align: center;
+    display: inline-block;
+    margin: 2rem;
+    color: rgb(222, 222, 222);
+    font-style: italic;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.historia__contenedor {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items:center;
+}
+
+/* PRODUCTOS */
+
+.productos__contenedor {
+    display: block;
+}
+
+.productos__lista {
+    display: block;
+}
+
+.productos__izq__items {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1000px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:  
+        "espiral cono"
+        "vara dhoops";
+}
+
+.productos__der__items{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1000px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:  
+        "lavanda sandalo"
+        "uva bebe";
+}
+
+.sahumerio__espiral {
+    grid-area: espiral;
+}
+
+.sahumerio__cono {
+    grid-area: cono;
+}
+
+.sahumerio__vara {
+    grid-area: vara;
+}
+
+.sahumerio__dhoops {
+    grid-area: dhoops;
+}
+
+.escencia__lavanda {
+    grid-area: lavanda;
+}
+
+.esencia__sandalo {
+    grid-area: sandalo;
+}
+
+.esencia__uva{
+    grid-area: uva;
+}
+
+.esencia__bebe {
+    grid-area: bebe;
+}
+
+
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+    .header__contenedor {
+        flex-direction: column;
+    }
+
+    .descuentos__contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    .destacados__contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    .pago__contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 100px);
+    }
+
+}
+
+
+
+
+/* Movil */
+
+@media screen and (max-width: 600px) {
+    .header__menu {
+        flex-wrap: wrap;
+    }
+
+    .descuentos__contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .destacados__contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .pago__contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 100px);
+    }
+
+    .footer__contenedor {
+        flex-direction: column;
+    }
+}
