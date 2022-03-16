@@ -43,6 +43,12 @@ div p {
     color: rgb(222, 222, 222);
 }
 
+.contacto__form {
+    max-width: 30%;
+    color: rgb(222, 222, 222);
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
@@ -93,6 +99,13 @@ a.nav {
 }
 
 /* Productos con descuentos y destacados */
+
+.imagenes {
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
 
 .imagenes__index {
     border-radius: 1rem;
