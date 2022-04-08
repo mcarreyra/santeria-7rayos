@@ -1,0 +1,96 @@
+/* INDEX */
+
+#publicidad {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 2rem;
+}
+
+.alert {
+    max-width: 600px;
+    max-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+/* Productos con descuentos y destacados */
+
+.imagenes {
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.imagenes__index {
+    border-radius: 1rem;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.descuentos {
+    padding: auto;
+    margin-bottom: 2rem;
+}
+
+.descuentos__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 2rem;
+}
+
+.destacados__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 2rem;
+}
+
+.prodcutos__titulos {
+    text-align: center;
+}
+
+
+/* métodos de pago */
+
+.pago {
+    padding: 2rem;
+    color: rgb(222, 222, 222);
+}
+
+.pago__contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.pago__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pago__item i {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.pago__item p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.pago__titulo {
+    text-align: center;
+}

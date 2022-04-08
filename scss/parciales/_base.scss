@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 0, 128);
+    font-family: 'Lora', serif;
+}
+
+
+.titulos {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+div h3 {
+    color: rgb(222, 222, 222);
+}
+
+
+div p {
+    color: rgb(222, 222, 222);
+}
+
+
+.pago {
+    margin: 1rem;
+    border: none;
+}
+
+
+
+.retrato {
+    border-radius: 1rem;
+}
+
+.contacto {
+    text-align: center;
+    color: rgb(222, 222, 222);
+}
+
+.contacto__form {
+    max-width: 30%;
+    color: rgb(222, 222, 222);
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}

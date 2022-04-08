@@ -1,0 +1,53 @@
+/* HEADER */
+
+.header {
+    padding: 2rem;
+    position: relative;
+}
+
+.header__contenedor {
+    /* max-width: 1200px; */
+    margin: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px; /* modificar cuando carge el logo */
+    width: 50px; /* modificar cuando carge el logo */
+}
+
+.header__logo img {
+    height: 100%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+a.nav {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    position: relative;
+}
+
+nav div ul li a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(222, 222, 222);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.4s;
+}
+
+nav div ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}

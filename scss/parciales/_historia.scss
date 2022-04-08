@@ -1,0 +1,20 @@
+/* HISTORIA */
+
+.historia__texto {
+    text-align: center;
+    display: inline-block;
+    margin: 2rem;
+    color: rgb(222, 222, 222);
+    font-style: italic;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.historia__contenedor {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items:center;
+}

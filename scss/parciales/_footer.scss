@@ -1,0 +1,33 @@
+/* FOOTER */
+
+footer p {
+    color: rgb(222, 222, 222);
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer {
+    padding: 2rem;
+}
+
+.footer__contenedor {
+    /* color de fondo o aplicar sombra */
+    max-height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.footer__info p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.footer__redes a {
+    color: rgb(222, 222, 222);
+    font-size: 25px;
+    padding: 1rem;
+}
