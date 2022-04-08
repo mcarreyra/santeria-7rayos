@@ -11,19 +11,19 @@ body {
 
 
 .titulos {
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
     text-decoration: none;
     text-align: center;
 }
 
 
 div h3 {
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
 }
 
 
 div p {
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
 }
 
 
@@ -40,12 +40,12 @@ div p {
 
 .contacto {
     text-align: center;
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
 }
 
 .contacto__form {
     max-width: 30%;
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
     margin: 0 auto;
 }
 

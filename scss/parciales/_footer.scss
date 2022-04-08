@@ -1,7 +1,7 @@
 /* FOOTER */
 
 footer p {
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
 }
 
 .copyright {
@@ -27,7 +27,7 @@ footer p {
 }
 
 .footer__redes a {
-    color: rgb(222, 222, 222);
+    color: $colorLetras;
     font-size: 25px;
     padding: 1rem;
 }
